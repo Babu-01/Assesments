@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content {
+    background-color: #f2fefe;
+    padding: 4% 0%;
+}
+.content-con {
+    display: flex;
+    width: 59%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 2px 2px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.content-con div {
+    width: 50%;
+}
+.content-con-left {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+input {
+    outline: 0;
+    border: 1px solid #808080;
+    padding: 10px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 65%;
+}
+label {
+    display: block;
+    margin-bottom: 2%;
+}
+.heading {
+    font-size: 30px;
+    margin-bottom: 15%;
+}
+.para {
+    color: #808080;
+    margin-bottom: 12%;
+    width: 60%;
+}
+form {
+    color: #808080;
+}
+.login-btn {
+    background-color: #6b6bd4;
+    color: white;
+    cursor: pointer;
+}
+.content-con-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6b6bd4;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10% 2%;
+    color: white;
+}
+.content-con-right h3 {
+    margin-bottom: 7%;
+    font-size: 30px;
+}
+.content-con-right img {
+    width: 85%;
+}
+#result {
+    text-align: center;
+    color: red;
+}
